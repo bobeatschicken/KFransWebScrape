@@ -71,4 +71,3 @@ for key in df_dict.keys():
 articles_df = pd.DataFrame(df_dict)
 articles_df = articles_df.transpose()
 print(articles_df)
-print(articles_df[np.logical_not(articles_df['Category'] == 'Research')])
